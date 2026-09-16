@@ -1,0 +1,106 @@
+body {
+    background: rgb(22,22,22);
+    margin: 0;
+}
+.Top {
+    background: rgb(20,40,60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.Right {
+    padding: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.Right img {
+    width: 50px;
+}
+.Left {
+    padding: 0 0 0 10px;
+}
+.Left img {
+    width: 25px;
+}
+.Page {
+    background: rgb(20,40,60);
+    border-radius: 0 0 20px 20px;
+    padding: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: white;
+}
+.Page video {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 210px;
+}
+.About {
+    border-right: 5px solid #6b4e10;
+    color: white;
+    padding: 0 10px 0 0;
+}
+.Warning {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px;
+}
+.Warning2 {
+    border: 1px;
+    border-radius: 15px;
+    border-right: 4px solid #6b4e10;
+    background: white;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    max-width: 334px;
+}
+.About2 {
+    border-right: 5px solid #6b1010;
+    color: white;
+    padding: 0 10px 0 0;
+}
+.Cards {
+    display: flex;
+    gap: 2px;
+}
+.Card {
+    border: 1px solid #fbaaaa;
+    border-radius: 30px;
+    background: rgb(180,160,160);
+    padding: 0 10px 0 10px;
+    width: 520px;
+    max-height: 85vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.Block {
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    border-right: 4px solid #6b1010;
+    padding: 0 10px 0 10px;
+    background: white;
+    margin-bottom: 10px;
+}
+.Card2 {
+    border: 1px solid #9fffaa;
+    border-radius: 30px;
+    background: rgb(160,180,160);
+    padding: 0 10px 0 10px;
+    width: 520px;
+    max-height: 85vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.Allow {
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    border-right: 4px solid #106b10;
+    padding: 0 10px 0 10px;
+    background: white;
+    margin-bottom: 10px;
+}
